@@ -1,0 +1,91 @@
+/* Butttons */
+
+.busbutton, .trainbutton {
+  background-color: #AA6039;
+  color: #FFC8AA;
+  width: 965px;
+  border-radius: 28px;
+  margin-top: 130px;
+  margin-right: 45px;
+  font-family: Advent Pro;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  width: 400px;
+  text-align: center;
+  padding-top: 20px;
+  height: 120px;
+  filter: drop-shadow(5px 5px 5px #8b8b8b);
+}
+
+
+/* the results box */
+
+.resultbox {
+  background-color: #AA6039;
+  width: 855px;
+  height: 384px;
+  border-radius: 28px;
+  margin-top: 357px;
+  margin-left: -890px;
+  color: rgba(85, 30, 0, 0.30);
+  font-family: Advent Pro;
+  font-size: 100px;
+  text-align: center;
+  font-weight: lighter;
+  filter: drop-shadow(5px 5px 5px #8b8b8b);
+}
+
+/* Bus results */ 
+
+.popup {
+  background-color: #AA6039;
+  width: 880px;
+  height: 384px;
+  border-radius: 28px;
+  margin-top: -457px;
+  margin-left: 428px;
+  z-index: 10;
+  filter: drop-shadow(5px 5px 5px #8b8b8b);
+}
+
+.art {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 40px;
+  color: #FFC8AA;
+  font-family: Noto Sans, sans-serif;
+  font-size: 24.093px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h4 {
+  color: #FFC8AA;
+  font-family: Noto Sans, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+
+hr {
+  margin-top: 40px;
+  background: #551E00;
+  width: 800px;
+  height: 4px;
+  border: none;
+}
