@@ -1,0 +1,182 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    color: #FFC8AA;
+    font-family: 'Advent Pro';
+  }
+  
+  header {
+    color: #ffddcf;
+    background-color: #551E00;
+    display: flex;
+    align-content: space-between;
+    position: fixed;
+    width: 1366px;
+    height: 128px;
+    font-size: xx-large;
+  }
+  
+  .name {
+    margin-top: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 480px;
+  }
+  
+  main {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+  }
+  
+  nav {
+    display: block;
+    background-color: #803A15;
+    margin-top: 128px;
+    margin-right: 50px;
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-top: 20px;
+    height: 930px;
+    width: 250px;
+    position: fixed;
+    font-size: xx-large;
+  }
+  
+  #button {
+    background-color: #AA6039;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 7px;
+    font-size: larger;
+  }
+  
+  #bar {
+    width: 250px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #FFC8AA;
+  }
+  
+  p {
+    font-family: sans-serif;
+  }
+  
+  #box {
+    background-color: #AA6039;
+    border-radius: 17px;
+    margin: 20px;
+    padding: 5px;
+    width: auto;
+    height: auto;
+  }
+
+  /* Butttons */
+
+.busbutton {
+  background-color: #AA6039;
+  color: #FFC8AA;
+  width: 965px;
+  height: 141px;
+  border-radius: 28px;
+  margin-top: 183px;
+  margin-left: 349px;
+  font-family: Advent Pro;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+.trainbutton {
+  background-color: #AA6039;
+  color: #FFC8AA;
+  width: 965px;
+  height: 141px;
+  border-radius: 28px;
+  margin-top: 57px;
+  margin-left: 349px;
+  font-family: Advent Pro;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+/* the results box */
+
+.resultbox {
+  background-color: #AA6039;
+  width: 965px;
+  height: 384px;
+  border-radius: 28px;
+  margin-top: 57px;
+  margin-left: 349px;
+  color: rgba(85, 30, 0, 0.30);
+  font-family: Advent Pro;
+  font-size: 100px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+/* Bus results */ 
+
+.popup {
+  background-color: #AA6039;
+  width: 965px;
+  height: 384px;
+  border-radius: 28px;
+  margin-top: 579px;
+  margin-left: 349px;
+  position: fixed;
+}
+
+.bustm {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+p {
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 40px;
+  color: #FFC8AA;
+  font-family: Noto Sans, sans-serif;
+  font-size: 24.093px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h4 {
+  color: #FFC8AA;
+  font-family: Noto Sans, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+
+hr {
+  margin-top: 40px;
+  background: #551E00;
+  width: 878px;
+  height: 4px;
+  border: none;
+}
